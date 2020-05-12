@@ -1,0 +1,37 @@
+<h1>Creación de Proyectos</h1>
+
+
+
+<form action="/proyects/create">
+  <div class="form-group">
+    <label for="name">Nombre Proyecto</label>
+    <input name="name" type="text" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="descritption">Descripción del Proyecto</label>
+    <textarea name="descritption" class="form-control"> </textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="start_date">Fecha de inicio</label>
+    <input name="start_date" type="date" class="form-control">
+  </div>
+
+    <div class="form-group">
+    <label for="finish_date">Fecha de finalización</label>
+    <input name="finish_date" type="date" class="form-control">
+  </div>
+
+
+  <div class="form-group">
+    <label for="state">Estado del proyecto</label>
+    <select name="state" class="form-control" id="state">
+      <option>Propuesta</option>
+      <option>Agendado</option>
+      <option>Terminado</option>
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
